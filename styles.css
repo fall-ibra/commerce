@@ -1,0 +1,63 @@
+
+header {
+    background: #333;
+    text-align: center;
+    color: green ;
+    padding: 15px;
+    border-image-width: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cart {
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.item-name {
+    flex: 2;
+}
+
+button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.like-btn {
+    color: red;
+}
+
+.like-btn.liked {
+    color: green;
+}
+
+.total-price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
